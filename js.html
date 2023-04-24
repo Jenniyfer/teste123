@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Document</title>
+<style>
+body{
+background: #e8cbc0; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #e8cbc0, #636fa4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.teste1{
+    text-align: center;
+    font-style: Arial;
+    border-style: solid;
+    width: 250px;
+    text-align: center;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+</style>
+<script type="text/javascript">
+function Teste()
+{
+    
+var a = document.getElementById("Usuario_input").value;
+var b = document.getElementById("Senha_input").value;
+
+if ( a == "Jennifer" & b == "2006" )
+{
+    alert("Só sucesso");
+}
+else
+{
+    alert("Só derrota");
+}
+}
+
+
+</script>
+</head>
+<body>
+
+
+<div class="teste1">
+    <div>
+        <h1>LOGIN</h1>
+    </div>
+
+
+
+    <div>
+        Usuário:
+    </div> 
+
+    <form>
+        <input type="texte" name="" id="Usuario_input"> 
+    </form>
+
+    <div>
+        Senha:
+    </div>
+
+    <form>
+        <input type="password" name="" id="Senha_input">
+    </form>
+<br>
+    <form>
+        <button type="submit" style="width: 175px" style="height: 10px" onclick="Teste()">Entrar</button>
+        
+    
+        
+    </form>
+<br>
+
+</div>
+
+</body>
+</html>
